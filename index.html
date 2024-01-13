@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assignment5.css">
+  <title>Your Webpage</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul id="navbar">
+        <li><a href="#" onclick="showSubMenu('course')">Course</a>
+          <ul class="submenu" id="courseSubmenu">
+            <li><a href="https://www.w3schools.com/howto/default.asp" target="_blank">W3-Schools</a></li>
+            <li><a href="https://www.geeksforgeeks.org/web-development/" target="_blank">Geeks-for-Geeks</a></li>
+            <li><a href="https://gaia.cs.umass.edu/kurose_ross/eighth.php" target="_blank">Kurose and Ross</a></li>
+          </ul>
+        </li>
+        <li><a href="#" onclick="showSubMenu('browser')">Browser</a>
+          <ul class="submenu" id="browserSubmenu">
+            <li><a href="#" onclick="showAttributes('navigator')">Navigator</a></li>
+            <li><a href="#" onclick="showAttributes('window')">Window</a></li>
+            <li><a href="#" onclick="showAttributes('screen')">Screen</a></li>
+            <li><a href="#" onclick="showAttributes('location')">Location</a></li>
+            <li><a href="#" onclick="showAttributes('geolocation')">Geolocation</a></li>
+          </ul>
+        </li>
+        <li><a href="#" onclick="showSubMenu('about')">About</a>
+          <ul class="submenu" id="aboutSubmenu">
+            <li><a href="#" onclick="displayDescription()">Description</a></li>
+            <li><a href='#' onclick="displayEmail()">Contact Me</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="contactEmail"></div>
+    <div id="browserAttributes"></div>
+    <div id="aboutDescription"></div>
+  </main>
+  <script src="assignment5.js"></script>
+</body>
+</html>

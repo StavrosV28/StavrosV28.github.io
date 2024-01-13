@@ -1,0 +1,54 @@
+body {
+  font-family: 'Candara', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Change color of the background */
+}
+
+header {
+  background-color: salmon;
+  color: midnightblue;
+  padding: 10px 0;
+}
+
+nav {
+  text-align: center;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: mediumpurple;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: midnightblue;
+}
+
+main {
+  padding: 20px;
+}
+
+/* change submenu color */
+.submenu {
+  background-color: pink; /* Change the color of the background for submenu */
+}
+
+.submenu a {
+  color: pink; /* Change the text color of submenu items */
+}
+
+.submenu a:hover {
+  color: deeppink; /* Change the hover color of submenu items */
+}
